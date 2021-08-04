@@ -1,6 +1,7 @@
 const app = require('express')();
 const PORT = process.env.PORT || 3000;
 
+// data
 supportedLanguages = ['pt-BR']
 apiAllUrls = [
     '/api', 
@@ -25,24 +26,41 @@ apiData = {
     'languages': supportedLanguages,
     'urls': supportedUrls
 }
-
 // /api/classes
 apiClassesData = {
     'all': ['warrior', 'bjoreten', 'barbarian', 'ranger', 'mage', 'paladin', 'cleric', 'monk', 'bard', 'witch', 'assassin']
 }
 
+// utils
+urlToDict = {
+    '/api/classes': apiClassesData,
+    '/api/classes/': apiClassesData,
+}
+
 app.get("", (req, res) => {
-    res.send("JARPARUR API\nby matjs");
+    apiHome = `JARPARUR API | by matjs | URLs = ${supportedUrls.join(', ')}`
+
+    res.send(apiHome);
 });
 
-// Visão Geral da API
 app.get("/api", (req, res) => {
-    res.send(apiData);
+    res.send(apiData)
 });
 
-// Classes
-app.get("/api/classes", (req, res) => {
-    res.send(apiClassesData);
+app.get("/api/:topic/", (req, res) => {
+    if(urlToDict[[req.path]] != undefined){
+        res.send(urlToDict[[req.path]]);   
+    } else{
+        res.send(`A URL inserida (${req.path}) não foi encontrado. URLs disponíveis:  ${supportedUrls.join(', ')}`)
+    }
+});
+
+app.get("/api/:topic/:subTopic/", (req, res) => {
+    if(urlToDict[[req.path]] != undefined){
+        res.send(urlToDict[[req.path]]);
+    } else{
+        res.send(`A URL inserida (${req.path}) não foi encontrado. URLs disponíveis: ${supportedUrls.join(', ')}`)
+    }
 });
 
 app.listen(PORT, () => {
