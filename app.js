@@ -51,7 +51,7 @@ app.get("/api/:topic/", (req, res) => {
     if(urlToDict[[req.path]] != undefined){
         res.send(urlToDict[[req.path]]);   
     } else{
-        res.send(`A URL inserida (${req.path}) não foi encontrado. URLs disponíveis:  ${supportedUrls.join(', ')}`)
+        res.send(`A URL inserida (${req.path}) não existe. URLs disponíveis:  ${supportedUrls.join(', ')}`)
     }
 });
 
@@ -59,7 +59,7 @@ app.get("/api/:topic/:subTopic/", (req, res) => {
     if(urlToDict[[req.path]] != undefined){
         res.send(urlToDict[[req.path]]);
     } else{
-        res.send(`A URL inserida (${req.path}) não foi encontrado. URLs disponíveis: ${supportedUrls.join(', ')}`)
+        res.send(`A URL inserida (${req.path}) não existe. URLs disponíveis: ${supportedUrls.join(', ')}`)
     }
 });
 
