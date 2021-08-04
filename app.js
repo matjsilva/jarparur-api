@@ -15,7 +15,7 @@ apiAllUrls = [
     '/api/relics', 
     '/api/religions', 
     '/api/spells']
-supportedUrls = ['/api']
+supportedUrls = ['/api', '/api/classes']
 
 // /api
 apiData = {
