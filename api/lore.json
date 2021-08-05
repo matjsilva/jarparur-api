@@ -1,0 +1,17 @@
+{
+    "temporalLines": {
+        "ageOfDiscovery": {
+            "name": "Idade do Descobrimento"
+        },
+        "cataclysm": {
+            "name": "Cataclisma"
+        },
+        "ageOfRevival": {
+            "name": "Idade Da Restauração"
+        }
+    },
+    "heroes": {},
+    "relics": {},
+    "relgions": {},
+    "tales": {}
+}

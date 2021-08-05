@@ -1,0 +1,54 @@
+{
+    "under-the-cataclysm": {
+        "name": "Under the Cataclysm",
+        "description": "WIP",
+        "languages": ["en-US"],
+        "genres": ["Rogue-like", "Exploration"],
+        "platform": "Windows Desktop",
+        "inDevelopment": false,
+        "isPaid": null,
+        "temporalLine": "cataclysm"
+    },
+    "world-of-jarparur": {
+        "name": "World Of Jarparur",
+        "description": "WIP",
+        "languages": ["en-US"],
+        "genres": ["RPG", "Exploration"],
+        "platform": "Windows Desktop",
+        "inDevelopment": false,
+        "isPaid": null,
+        "temporalLine": "ageOfRevival"
+    },
+    "untitled": {
+        "name": null,
+        "description": "WIP",
+        "languages": [],
+        "genres": [],
+        "platform": null,
+        "inDevelopment": false,
+        "isPaid": null,
+        "temporalLine": "ageOfDiscovery"
+    },
+    "other": {
+        "jarparur-bot": {
+            "name": "Jarparur BOT",
+            "description": "Um BOT de Discord que abriga o universo de Jarparur no formato RPG de Texto.",
+            "languages": ["pt-BR"],
+            "genres": ["RPG"],
+            "platform": "Discord",
+            "inDevelopment": true,
+            "isPaid": false,
+            "temporalLine": "ageOfRevival"
+        },
+        "jarparur-cli": {
+            "name": "Jarparur CLI",
+            "description": "Uma aplicação CLI que transporta o jogador à uma versão do universo de Jarparur no formato de RPG de Texto.",
+            "languages": ["pt-BR"],
+            "genres": ["RPG"],
+            "platform": "CLI",
+            "inDevelopment": false,
+            "isPaid": false,
+            "temporalLine": "ageOfRevival"
+        }
+    }
+}

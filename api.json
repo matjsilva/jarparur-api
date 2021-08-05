@@ -1,0 +1,7 @@
+{
+    "name": "Jarparur API",
+    "version": "1.0.0",
+    "author": "matjs",
+    "languages": ["pt-BR"],
+    "urls": ["/api", "/api/game/", "/api/world/", "/api/lore/"]
+}
