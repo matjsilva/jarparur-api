@@ -10,8 +10,16 @@
             "name": "Idade Da Restauração"
         }
     },
-    "heroes": {},
-    "relics": {},
-    "relgions": {},
-    "tales": {}
+    "heroes": {
+        "url": "/api/lore/heroes/"
+    },
+    "relics": {
+        "url": "/api/lore/relics/"
+    },
+    "religions": {
+        "url": "/api/lore/religions/"
+    },
+    "tales": {
+        "url": "/api/lore/tales/"
+    }
 }

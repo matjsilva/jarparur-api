@@ -1,7 +1,17 @@
 {
-    "dimensions": {},
-    "worlds": {},
-    "regions": {},
-    "empires": {},
-    "factions": {}
+    "dimensions": {
+        "url": "/api/world/dimensions/"
+    },
+    "worlds": {
+        "url": "/api/world/worlds/"
+    },
+    "regions": {
+        "url": "/api/world/regions/"
+    },
+    "empires": {
+        "url": "/api/world/empires/"
+    },
+    "factions": {
+        "url": "/api/world/factions/"
+    }
 }

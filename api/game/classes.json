@@ -1,3 +1,35 @@
 {
-    "all": ["warrior", "bjoreten", "barbarian", "ranger", "mage", "paladin", "cleric", "monk", "bard", "witch", "assassin"]
+    "warrior": {
+        "url": "/api/classes/warrior"
+    },
+    "bjoreten": {
+        "url": "/api/classes/bjoreten"
+    },
+    "barbarian": {
+        "url": "/api/classes/barbarian"
+    },
+    "ranger": {
+        "url": "/api/classes/ranger"
+    },
+    "mage": {
+        "url": "/api/classes/mage"
+    },
+    "paladin": {
+        "url": "/api/classes/paladin"
+    },
+    "cleric": {
+        "url": "/api/classes/cleric"
+    },
+    "monk": {
+        "url": "/api/classes/monk"
+    },
+    "bard": {
+        "url": "/api/classes/bard"
+    },
+    "witch": {
+        "url": "/api/classes/witch"
+    },
+    "assassin": {
+        "url": "/api/classes/assassin"
+    }
 }
