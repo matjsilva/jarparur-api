@@ -1,6 +1,7 @@
 {
     "under-the-cataclysm": {
         "name": "Under the Cataclysm",
+        "available": false,
         "description": "WIP",
         "languages": ["en-US"],
         "genres": ["Rogue-like", "Exploration"],
@@ -11,6 +12,7 @@
     },
     "world-of-jarparur": {
         "name": "World Of Jarparur",
+        "available": false,
         "description": "WIP",
         "languages": ["en-US"],
         "genres": ["RPG", "Exploration"],
@@ -21,6 +23,7 @@
     },
     "untitled": {
         "name": null,
+        "available": false,
         "description": "WIP",
         "languages": [],
         "genres": [],
@@ -32,6 +35,7 @@
     "other": {
         "jarparur-bot": {
             "name": "Jarparur BOT",
+            "available": true,
             "description": "Um BOT de Discord que abriga o universo de Jarparur no formato RPG de Texto.",
             "languages": ["pt-BR"],
             "genres": ["RPG"],
@@ -42,6 +46,7 @@
         },
         "jarparur-cli": {
             "name": "Jarparur CLI",
+            "available": true,
             "description": "Uma aplicação CLI que transporta o jogador à uma versão do universo de Jarparur no formato de RPG de Texto.",
             "languages": ["pt-BR"],
             "genres": ["RPG"],

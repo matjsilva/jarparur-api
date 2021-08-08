@@ -1,7 +1,7 @@
 {
     "name": "Jarparur API",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "matjs",
     "languages": ["pt-BR"],
-    "urls": ["/api", "/api/game/", "/api/world/", "/api/lore/"]
+    "urls": ["/api", "/api/game/", "/api/world/", "/api/lore/", "/api/game/gameID/users/userID"]
 }

@@ -1,13 +1,20 @@
 {
     "temporalLines": {
-        "ageOfDiscovery": {
-            "name": "Idade do Descobrimento"
+        "worldCreation": {
+            "name": "O Surgimento do Mundo",
+            "url": "/api/lore/worldCreation"
+        },
+        "firstEra": {
+            "name": "A Primeira Era",
+            "url": "/api/lore/firstEra"
         },
         "cataclysm": {
-            "name": "Cataclisma"
+            "name": "Cataclisma",
+            "url": "/api/lore/cataclysm"
         },
-        "ageOfRevival": {
-            "name": "Idade Da Restauração"
+        "ascension": {
+            "name": "A Ascenção",
+            "url": "/api/lore/ascension"
         }
     },
     "heroes": {
