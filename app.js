@@ -1,4 +1,5 @@
 const app = require('express')();
+const cors = require('cors');
 const fs = require('fs');
 const admin = require('firebase-admin');
 const PORT = process.env.PORT || 3000;
@@ -12,6 +13,10 @@ admin.initializeApp({
 const db = admin.firestore();
 
 supportedUrls = JSON.parse(fs.readFileSync(`api.json`))['urls']
+
+app.use(cors({
+    origin: ['*']
+}));
 
 app.get("", (req, res) => {
     apiHome = `JARPARUR API | by matjs | URLs = ${supportedUrls.join(', ')}`
