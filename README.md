@@ -8,7 +8,6 @@
 <h4 align="center">
   API do Universo de Jarparur, inclui informações sobre jogos que utilizam o universo, dimensões, mundos, impérios, facções e outras informações.
 <h4 align="center"><a href="https://jarparur-api.herokuapp.com/api">Clique para visitar o projeto</a></h4>
-  <script>alert('hey!')</script>
 </html>
 
 ---
